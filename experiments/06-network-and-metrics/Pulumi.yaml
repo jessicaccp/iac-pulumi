@@ -1,0 +1,6 @@
+name: network-and-metrics
+runtime:
+  name: python
+  options:
+    virtualenv: ../../.venv
+description: Rede Docker com servidor e gerador de tráfego, mais um script que a mede.
