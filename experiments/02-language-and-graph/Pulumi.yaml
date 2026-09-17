@@ -1,0 +1,6 @@
+name: language-and-graph
+runtime:
+  name: python
+  options:
+    virtualenv: ../../.venv
+description: Laços, condicionais, configuração secreta e composição de Output no Docker.

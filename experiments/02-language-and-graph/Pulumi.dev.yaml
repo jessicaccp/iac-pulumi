@@ -1,0 +1,5 @@
+config:
+  language-and-graph:serviceCount: "2"
+  language-and-graph:basePort: "8090"
+  language-and-graph:greeting:
+    secure: AAABAHO9YVst3+TnwCEPh6LK+voqAseI0D6nkZpil0XSN6pN4MZ1iBFbNgZNODrNLewdS94VmokJfA==
