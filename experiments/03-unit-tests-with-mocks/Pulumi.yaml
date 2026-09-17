@@ -1,0 +1,6 @@
+name: unit-tests
+runtime:
+  name: python
+  options:
+    virtualenv: ../../.venv
+description: Mesmo formato do experimento 02, escrito para ser testado com mocks.
