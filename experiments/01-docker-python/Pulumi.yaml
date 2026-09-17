@@ -1,0 +1,6 @@
+name: docker-python
+runtime:
+  name: python
+  options:
+    virtualenv: ../../.venv
+description: Primeiro programa em Pulumi. Container real no daemon Docker local, sem conta em nuvem.
