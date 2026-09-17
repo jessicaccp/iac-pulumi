@@ -1,0 +1,6 @@
+name: local-backend
+runtime:
+  name: python
+  options:
+    virtualenv: ../../.venv
+description: Programa mínimo para inspecionar onde o Pulumi guarda o estado e como os segredos são armazenados.
