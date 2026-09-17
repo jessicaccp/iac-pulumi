@@ -2,10 +2,8 @@
 
 Registro do que foi executado e observado ao usar o Pulumi, em setembro de 2026, com o Docker como alvo. Cada
 item traz a evidência, e as comparações com OpenTofu e Terraform foram feitas com a mesma topologia escrita em
-HCL, no experimento `07-docker-hcl`.
-
-As afirmações verificadas aparecem como fato. As que dependem apenas da documentação oficial estão
-identificadas.
+HCL, no experimento `07-docker-hcl`. As afirmações verificadas aparecem acompanhadas das saídas de terminal, e
+o que depende apenas da documentação oficial está identificado.
 
 ## 1. O programa é executado, e o grafo decorre dos dados
 

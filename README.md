@@ -2,22 +2,11 @@
 
 Registro das verificações feitas ao executar o [Pulumi](https://www.pulumi.com), ferramenta de infraestrutura
 como código, em setembro de 2026, para apoiar a escolha de ferramenta pela equipe. O alvo das execuções é o
-Docker da máquina local, porque não havia credencial de nuvem disponível.
+Docker da máquina local, porque não havia credencial de nuvem disponível. As afirmações verificadas aparecem
+acompanhadas das saídas de terminal; o que depende apenas da documentação oficial está identificado.
 
 O conteúdo está em `docs/`, com quatro documentos, e em `experiments/`, com seis programas Pulumi em Python e um
 programa em HCL para a comparação com OpenTofu e Terraform.
-
-## Convenções
-
-**Documentos.** Afirmações verificadas aparecem como fato, acompanhadas das saídas de terminal. O que depende
-apenas da documentação oficial do Pulumi está identificado como documentado.
-
-**Nomes.** Os documentos são numerados em português, e o número corresponde à ordem de leitura. Os experimentos
-são numerados em inglês, porque contêm código; o nome descreve o assunto, ou provedor mais linguagem quando o
-programa existe para comparar as duas famílias de ferramentas.
-
-**Código.** Comentários e docstrings estão em português. Identificadores, nomes de API, nomes de recursos e
-valores funcionais permanecem em inglês, porque fazem parte da interface da ferramenta.
 
 ## Documentos
 
