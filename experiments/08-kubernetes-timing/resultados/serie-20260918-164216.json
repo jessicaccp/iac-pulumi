@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "inicio": "2026-09-18T19:42:15.552029+00:00",
+    "hora_local": "2026-09-18T16:42:15-03:00",
+    "hora_externa": "date: Thu, 24 Sep 2026 20:39:19 GMT",
+    "host": "kub-master",
+    "pulumi": "v3.263.0",
+    "kubectl": "Client Version: v1.32.13",
+    "config_do_stack": "KEY        VALUE | image      nginx:1.27-alpine | namespace  bench-larces | skipAwait  true | unitCount  1"
+  },
+  "args": {
+    "namespace": "bench-larces",
+    "sizes": "10,50,100",
+    "repetitions": 5,
+    "parallel": 10,
+    "image": "nginx:1.27-alpine",
+    "name_prefix": "bench-web",
+    "output": "/home/larces/workspace/pulumi/experiments/08-kubernetes-timing/resultados",
+    "allow_cluster_admin": false,
+    "command_timeout": 600,
+    "heartbeat": 15,
+    "convergence_timeout": 120,
+    "dry_run": false
+  },
+  "resultados": [
+    {
+      "tamanho": 10,
+      "repeticao": 0,
+      "aquecimento": true,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.801511243917048,
+      "up": 4.126457283971831,
+      "convergencia": 10.451404714025557,
+      "pulumi_duration": 4.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.8012947011739016,
+      "destroy": 5.803887072950602,
+      "ciclo": 20.796507433988154
+    },
+    {
+      "tamanho": 10,
+      "repeticao": 1,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.8012840910814703,
+      "up": 4.014820934040472,
+      "convergencia": 12.519373573828489,
+      "pulumi_duration": 4.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.8011184940114617,
+      "destroy": 5.8034137829672545,
+      "ciclo": 23.381167510990053
+    },
+    {
+      "tamanho": 10,
+      "repeticao": 2,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.8011938140261918,
+      "up": 3.9367982901167125,
+      "convergencia": 11.369772889185697,
+      "pulumi_duration": 3.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.8014442650601268,
+      "destroy": 5.604714581044391,
+      "ciclo": 22.038305772002786
+    },
+    {
+      "tamanho": 10,
+      "repeticao": 3,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.8012005807831883,
+      "up": 3.7735302168875933,
+      "convergencia": 11.091871456010267,
+      "pulumi_duration": 3.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.8011892240028828,
+      "destroy": 5.203498188173398,
+      "ciclo": 21.577585919993
+    },
+    {
+      "tamanho": 10,
+      "repeticao": 4,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.8012961021158844,
+      "up": 3.757620031014085,
+      "convergencia": 12.35512378392741,
+      "pulumi_duration": 3.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.8010447900742292,
+      "destroy": 5.604444720083848,
+      "ciclo": 23.427854164037853
+    },
+    {
+      "tamanho": 10,
+      "repeticao": 5,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 1.8012610608711839,
+      "up": 4.112179156159982,
+      "convergencia": 11.61675975099206,
+      "pulumi_duration": 4.0,
+      "objetos": {
+        "deploy": 10,
+        "service": 10,
+        "pod": 10
+      },
+      "preview_sem_mudanca": 1.801244854927063,
+      "destroy": 5.6042620439548045,
+      "ciclo": 22.40610044496134
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 0,
+      "aquecimento": true,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.601626934017986,
+      "up": 17.042975735850632,
+      "convergencia": 23.699157929979265,
+      "pulumi_duration": 17.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.6019260839093477,
+      "destroy": 29.020268720109016,
+      "ciclo": 59.90114347706549
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 1,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.4016474247910082,
+      "up": 15.443656785879284,
+      "convergencia": 21.122389898868278,
+      "pulumi_duration": 15.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.6014655618928373,
+      "destroy": 28.21738698007539,
+      "ciclo": 55.279581184033304
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 2,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.2013084650970995,
+      "up": 14.9700983799994,
+      "convergencia": 20.6502026359085,
+      "pulumi_duration": 14.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.8017680367920548,
+      "destroy": 28.82129822904244,
+      "ciclo": 55.61204533302225
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 3,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.401706753997132,
+      "up": 14.448834561975673,
+      "convergencia": 20.210494871018454,
+      "pulumi_duration": 14.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.601436151191592,
+      "destroy": 29.616621871013194,
+      "ciclo": 55.980930347926915
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 4,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.2014394379220903,
+      "up": 15.444975558901206,
+      "convergencia": 22.22802240191959,
+      "pulumi_duration": 15.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.8017930269706994,
+      "destroy": 29.218294450081885,
+      "ciclo": 57.39035961800255
+    },
+    {
+      "tamanho": 50,
+      "repeticao": 5,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 2.2013904280029237,
+      "up": 15.462614938849583,
+      "convergencia": 21.13296777382493,
+      "pulumi_duration": 15.0,
+      "objetos": {
+        "deploy": 50,
+        "service": 50,
+        "pod": 50
+      },
+      "preview_sem_mudanca": 2.801594069926068,
+      "destroy": 28.4165431400761,
+      "ciclo": 55.762372540077195
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 0,
+      "aquecimento": true,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.8018615839537233,
+      "up": 30.67413254082203,
+      "convergencia": 35.3899616508279,
+      "pulumi_duration": 30.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 3.801976535934955,
+      "destroy": 58.43652093410492,
+      "ciclo": 102.59492384409532
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 1,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.8027302669361234,
+      "up": 34.20939341885969,
+      "convergencia": 38.78062143083662,
+      "pulumi_duration": 34.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 4.0021808431483805,
+      "destroy": 57.03617734182626,
+      "ciclo": 104.78883310197853
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 2,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.8028613661881536,
+      "up": 30.9327308840584,
+      "convergencia": 34.719988154945895,
+      "pulumi_duration": 30.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 6.003795086871833,
+      "destroy": 57.63735648384318,
+      "ciclo": 103.43249331903644
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 3,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.801960228011012,
+      "up": 29.526618238072842,
+      "convergencia": 38.93952011712827,
+      "pulumi_duration": 29.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 4.202082935953513,
+      "destroy": 58.03461908898316,
+      "ciclo": 106.19359980709851
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 4,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.8021633678581566,
+      "up": 35.82441963488236,
+      "convergencia": 37.06579145882279,
+      "pulumi_duration": 35.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 3.8020886960439384,
+      "destroy": 56.23806611308828,
+      "ciclo": 102.07726485095918
+    },
+    {
+      "tamanho": 100,
+      "repeticao": 5,
+      "aquecimento": false,
+      "namespace": "bench-larces",
+      "fase": "concluido",
+      "preview": 3.8019016289617866,
+      "up": 34.37883119401522,
+      "convergencia": 37.96767809311859,
+      "pulumi_duration": 34.0,
+      "objetos": {
+        "deploy": 100,
+        "service": 100,
+        "pod": 100
+      },
+      "preview_sem_mudanca": 3.802236007992178,
+      "destroy": 56.43523711292073,
+      "ciclo": 103.19634932791814
+    }
+  ]
+}

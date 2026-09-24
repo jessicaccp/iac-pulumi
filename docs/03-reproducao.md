@@ -84,6 +84,7 @@ O diretório do backend de arquivo precisa existir antes. Com ele, `pulumi login
 | `05-local-backend-and-state` | Backend de arquivo, segredo por passphrase e formato do estado |
 | `06-network-and-metrics` | Rede com servidor e gerador de tráfego, e o coletor de métricas |
 | `07-docker-hcl` | A mesma topologia escrita em HCL, para OpenTofu e Terraform |
+| `08-kubernetes-timing` | Medição de tempo no cluster Kubernetes. O procedimento está em `04-tempos.md`, porque o alvo é o cluster e não o Docker local. O programa de diagnóstico usado para isolar o travamento do motor está em `diagnostico/` |
 
 ```bash
 export DOCKER_HOST=unix:///run/user/1000/docker.sock

@@ -1,0 +1,4 @@
+name: kubernetes-timing
+runtime:
+  name: python
+description: Modulos web em Kubernetes, para medir tempo de criacao e remocao.

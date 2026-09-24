@@ -1,0 +1,4 @@
+name: await-check
+runtime:
+  name: python
+description: Um Deployment minimo, com a espera do provedor ligada.

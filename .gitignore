@@ -9,3 +9,6 @@ node_modules/
 *.tfstate
 *.tfstate.*
 tfplan*
+
+# Saida bruta da serie de medicao: o JSON com os numeros fica versionado.
+experiments/08-kubernetes-timing/resultados*/logs/
